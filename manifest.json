@@ -1,0 +1,10 @@
+{
+	"id": "insert-new-line",
+	"name": "Insert New Line Plugin",
+	"version": "1.0.0",
+	"minAppVersion": "0.15.0",
+	"description": "Obsidian plugin to insert a new line above or below the current line.",
+	"author": "Freddy Ouellette",
+	"authorUrl": "https://freddyouellette.com",
+	"isDesktopOnly": false
+}
