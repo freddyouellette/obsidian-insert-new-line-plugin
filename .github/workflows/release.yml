@@ -36,9 +36,13 @@ jobs:
       - name: Upload main.js to release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release upload "$tag" main.js
+        run: |
+          tag="${GITHUB_REF#refs/tags/}"
+          gh release upload "$tag" main.js
       
       - name: Upload manifest.json to release
         env:
           GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-        run: gh release upload "$tag" manifest.js
+        run: |
+          tag="${GITHUB_REF#refs/tags/}"
+          gh release upload "$tag" manifest.js
