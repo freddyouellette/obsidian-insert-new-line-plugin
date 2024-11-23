@@ -1,6 +1,6 @@
 {
 	"name": "obsidian-insert-new-line-plugin",
-	"version": "1.0.2",
+	"version": "1.0.3",
 	"description": "Obsidian plugin to insert a new line above or below the current line.",
 	"main": "main.js",
 	"scripts": {
