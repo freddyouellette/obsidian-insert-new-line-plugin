@@ -34,17 +34,7 @@ jobs:
             main.js manifest.json
 
       - name: Upload main.js to release
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: path/to/main.js
-          asset_name: main.js
-          asset_content_type: application/javascript
+        run: gh release upload "$tag" main.js
       
       - name: Upload manifest.json to release
-        uses: actions/upload-release-asset@v1
-        with:
-          upload_url: ${{ github.event.release.upload_url }}
-          asset_path: path/to/manifest.json
-          asset_name: manifest.json
-          asset_content_type: application/json
+        run: gh release upload "$tag" manifest.js
