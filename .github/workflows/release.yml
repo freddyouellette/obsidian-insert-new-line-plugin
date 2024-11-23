@@ -32,3 +32,15 @@ jobs:
             --title="$tag" \
             --draft \
             main.js manifest.json
+
+      - name: Upload Plugin Asset main.js
+        uses: actions/upload-artifact@v3
+        with:
+          name: main.js
+          path: main.js
+
+      - name: Upload Plugin Asset manifest.json
+        uses: actions/upload-artifact@v3
+        with:
+          name: manifest.json
+          path: manifest.json
