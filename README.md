@@ -3,8 +3,8 @@
 [![Created by Freddy Ouellette](https://img.shields.io/badge/Created%20by%20Freddy%20Ouellette-gray)](https://freddyouellette.com) [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/freddyouellette/obsidian-insert-new-line-plugin)
 
 * Adds two new commands to the Obsidian Notes Application:
-  * `Insert New Line Above` - Cmd + Shift + Enter by default
-  * `Insert New Line Below` - Shift + Enter by default
+  * `Insert New Line: Above`
+  * `Insert New Line: Below`
 
 ## Problems, Questions, Suggestions? 
 * I encourage all issues or suggestions to be submitted through the [**Issues** tab on GitHub](https://github.com/freddyouellette/obsidian-insert-new-line-plugin/issues).

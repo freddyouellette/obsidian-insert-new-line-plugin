@@ -4,13 +4,8 @@ export default class InsertNewLine extends Plugin {
 	async onload() {
 		this.addCommand({
 			id: 'new-line-above',
-			name: 'Insert New Line Above',
-			hotkeys: [
-				{
-					modifiers: ['Mod', 'Shift'],
-					key: 'Enter',
-				}
-			],
+			name: 'Above',
+			icon: 'move-up-left',
 			editorCallback: (editor: Editor) => {
 				const cursor = editor.getCursor();
 				const line = editor.getLine(cursor.line);
@@ -23,13 +18,8 @@ export default class InsertNewLine extends Plugin {
 		
 		this.addCommand({
 			id: 'new-line-below',
-			name: 'Insert New Line Below',
-			hotkeys: [
-				{
-					modifiers: ['Shift'],
-					key: 'Enter',
-				}
-			],
+			name: 'Below',
+			icon: 'move-down-left',
 			editorCallback: (editor: Editor) => {
 				const cursor = editor.getCursor();
 				const line = editor.getLine(cursor.line);
