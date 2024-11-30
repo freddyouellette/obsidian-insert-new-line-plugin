@@ -1,8 +1,9 @@
-# Obsidian Notes Insert New Line Plugin
+# Insert New Line Plugin
+*Plugin for the application Obsidian Notes*
 
 [![Created by Freddy Ouellette](https://img.shields.io/badge/Created%20by%20Freddy%20Ouellette-gray)](https://freddyouellette.com) [![GitHub](https://img.shields.io/badge/GitHub-black?logo=github)](https://github.com/freddyouellette/obsidian-insert-new-line-plugin)
 
-* Adds two new commands to the Obsidian Notes Application:
+Adds two new commands to the Obsidian Notes Application:
   * `Insert New Line: Above`
   * `Insert New Line: Below`
 
